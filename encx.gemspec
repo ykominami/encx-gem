@@ -6,6 +6,7 @@ require 'encx/version'
 Gem::Specification.new do |spec|
   spec.name          = "encx"
   spec.version       = Encx::VERSION
+  spec.licenses      = ['MIT']
   spec.authors       = ["yasuo kominami"]
   spec.email         = ["ykominami@gmail.com"]
 
@@ -20,7 +21,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = '>= 1.9'
 
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "http://mygemserver.com"
+#    spec.metadata['allowed_push_host'] = "http://mygemserver.com"
   end
 
   spec.add_development_dependency "bundler", "~> 1.9"
