@@ -48,6 +48,7 @@ module Encx
     def compare(l , hs)
       ret2 = @encoding_ary.find{ |x|
         begin
+          p hs[x]
           ret = hs[x].match(l)
           if ret
             ret = true
