@@ -46,7 +46,7 @@ module Encx
     end
 
     def compare(l , hs)
-      put "# Call compare"
+      puts "# Call compare"
       ret2 = @encoding_ary.find{ |x|
         begin
 #          p hs[x]
