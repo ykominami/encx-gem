@@ -46,9 +46,10 @@ module Encx
     end
 
     def compare(l , hs)
+      put "# Call compare"
       ret2 = @encoding_ary.find{ |x|
         begin
-          p hs[x]
+#          p hs[x]
           ret = hs[x].match(l)
           if ret
             ret = true
